@@ -48,7 +48,7 @@ export default function Navbar() {
             </div>
             <div className="leading-none">
               <span className={`font-syne font-bold text-lg tracking-tight transition-colors text-white`}>
-                Mastery<span className="text-brand-green" style={{ color: scrolled ? 'var(--brand-green)' : '#5ef5c0' }}>Pete</span>
+                Pete<span className="text-brand-green" style={{ color: scrolled ? 'var(--brand-green)' : '#5ef5c0' }}>Mastery</span>
               </span>
             </div>
           </Link>

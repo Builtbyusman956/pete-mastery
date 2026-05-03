@@ -64,7 +64,7 @@ export default function Footer() {
                 <span className="text-white font-syne font-bold text-base">E</span>
               </div>
               <span className="font-syne font-bold text-lg">
-                Mastery<span className="text-green-400">Pete</span>
+                Pete<span className="text-green-400">Mastery</span>
               </span>
             </div>
             <p className="text-white/55 text-sm leading-relaxed mb-5">
