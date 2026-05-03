@@ -7,13 +7,13 @@ export default function Layout() {
   const { pathname } = useLocation()
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    window.scrollTo({ top: 0, behavior: 'instant' })
   }, [pathname])
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#060A08]">
+    <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-1">
+      <main className="flex-1 page-enter">
         <Outlet />
       </main>
       <Footer />
